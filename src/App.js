@@ -51,9 +51,9 @@ const RobotList = (props) => {
   };
 
   return (
-    <div className="flex flex-wrap  gap-x-3 gap-y-2">
+    <div className="flex flex-wrap  gap-y-2">
       {props.robot.map((robot, index) => (
-        <div key={index} className="flex flex-col items-center basis-1/4 ">
+        <div key={index} className="flex flex-col items-center basis-1/3 ">
           <img
             src={`https://robohash.org/${robot}`}
             alt={`Robot for ${robot}`}
